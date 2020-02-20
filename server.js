@@ -10,6 +10,6 @@ app.get('/*', function(req, res) {
   res.status(200).sendFile(path.join(__dirname + '/dist/web-graphshowwithSigma/index.html'));
 });
 app.listen(process.env.PORT || 8080);
-console.log('Tombala herokuda basladi');
+console.log('graphshowwithSigma herokuda basladi');
 
 // default Heroku PORT
