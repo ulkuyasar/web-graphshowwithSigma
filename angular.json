@@ -26,7 +26,28 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/sigma/build/sigma.min.js"
+                "node_modules/sigma/build/sigma.min.js",
+                "node_modules/sigma/build/plugins/sigma.parsers.gexf.min.js",
+                "node_modules/sigma/build/plugins/sigma.exporters.svg.min.js",
+                "node_modules/sigma/build/plugins/sigma.layout.forceAtlas2.min.js",
+                "node_modules/sigma/build/plugins/sigma.layout.noverlap.min.js",
+                "node_modules/sigma/build/plugins/sigma.neo4j.cypher.min.js",
+                "node_modules/sigma/build/plugins/sigma.parsers.json.min.js",
+                "node_modules/sigma/build/plugins/sigma.pathfinding.astar.min.js",
+                "node_modules/sigma/build/plugins/sigma.plugins.animate.min.js",
+                "node_modules/sigma/build/plugins/sigma.plugins.dragNodes.min.js",
+                "node_modules/sigma/build/plugins/sigma.plugins.filter.min.js",
+                "node_modules/sigma/build/plugins/sigma.plugins.neighborhoods.min.js",
+                "node_modules/sigma/build/plugins/sigma.plugins.relativeSize.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.customEdgeShapes.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.customShapes.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.edgeDots.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.edgeLabels.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.parallelEdges.min.js",
+                "node_modules/sigma/build/plugins/sigma.renderers.snapshot.min.js",
+                "node_modules/sigma/build/plugins/sigma.statistics.HITS.min.js"
+
+
             ],
             "es5BrowserSupport": true
           },
@@ -85,7 +106,29 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/sigma/build/sigma.min.js"
+              "node_modules/sigma/build/sigma.min.js",
+              "node_modules/sigma/build/plugins/sigma.parsers.gexf.min.js",
+              "node_modules/sigma/build/plugins/sigma.exporters.svg.min.js",
+              "node_modules/sigma/build/plugins/sigma.layout.forceAtlas2.min.js",
+              "node_modules/sigma/build/plugins/sigma.layout.noverlap.min.js",
+              "node_modules/sigma/build/plugins/sigma.neo4j.cypher.min.js",
+              "node_modules/sigma/build/plugins/sigma.parsers.json.min.js",
+              "node_modules/sigma/build/plugins/sigma.pathfinding.astar.min.js",
+              "node_modules/sigma/build/plugins/sigma.plugins.animate.min.js",
+              "node_modules/sigma/build/plugins/sigma.plugins.dragNodes.min.js",
+              "node_modules/sigma/build/plugins/sigma.plugins.filter.min.js",
+              "node_modules/sigma/build/plugins/sigma.plugins.neighborhoods.min.js",
+              "node_modules/sigma/build/plugins/sigma.plugins.relativeSize.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.customEdgeShapes.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.customShapes.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.edgeDots.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.edgeLabels.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.parallelEdges.min.js",
+              "node_modules/sigma/build/plugins/sigma.renderers.snapshot.min.js",
+              "node_modules/sigma/build/plugins/sigma.statistics.HITS.min.js"
+
+
+         
             ],
             "assets": [
               "src/favicon.ico",
